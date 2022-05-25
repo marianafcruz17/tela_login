@@ -1,0 +1,221 @@
+body{
+    flex-grow: 0;
+    padding: 118px 320px 230px;
+    background-color: #1c1c1c;
+}
+
+form{
+    width: 80%;
+    height: 372px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 54px;
+    border-radius: 6px;
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.12);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.93) 7%, #614e0d 100%, rgba(255, 255, 255, 0.2) 100%);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.45) 0%, rgba(97, 78, 13, 0.5) 100%);
+}
+
+.perfil{
+    width: 146px;
+    height: 144px;
+    flex-grow: 0;
+    display: flex;
+    flex-basis: 0;
+    flex-direction: initial;
+    justify-content: center;
+    align-self: baseline;
+    border-radius: 50%;
+    border: solid 10px #1c1c1c;
+    margin: 0 257px 318px;
+    box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.25);
+}
+
+button{
+    width: 50px;
+    height: 5px;
+    flex-grow: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 26px 181px;
+    border: solid 0px #cf777d;
+    border-radius: 6px;
+    background-color: rgba(255, 199, 0, 0.25);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: center;
+    line-height: normal;
+    letter-spacing: normal;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+button:hover{
+    opacity: 1;
+    background-color: rgba(216, 168, 0, 0.6);
+}
+
+.input_email{
+    width: 340px;
+    height: 50px;
+    flex-grow: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;  
+    padding: 0 45px 0 70px;
+    position: inherit;
+    margin-top: 22%;
+    border-radius: 6px;
+    background-color: white;
+    border-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #828282;
+}
+
+.input_email:hover{
+    opacity: 1;
+    border: solid 2px #ffe998;
+    background-color: white;
+}
+
+.input_senha{
+    width: 340px;
+    height: 50px;
+    flex-grow: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 45px 0 70px;
+    position: inherit;
+    border-radius: 6px;
+    border-color: transparent;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #828282;  
+}
+
+.input_senha:hover{
+    opacity: 1;
+    border: solid 2px #ffe998;
+    background-color: white;
+}
+
+.checkbox{
+    border-radius: 4px;
+    border: solid 1px #545454;
+    background-color: white;
+}
+
+.lembrar{
+    flex-grow: 2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: white;
+}
+
+.esquecer_senha{
+    flex-grow: 2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    text-align: right;
+    font-weight: 500;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #b78142;
+}
+
+.esquecer_senha:hover{
+    opacity: 1;
+    color: #ff6b00;
+}
+
+.cadastrar_usuario{
+    flex-grow: 3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;    
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffe2c0;
+}
+
+.cadastrar_usuario:hover{
+    opacity: 1;
+    color: #ffd540;
+}
+
+.nao_tem_conta{
+    flex-grow: 3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: white;
+}
+
+.icon_email{
+    width: 40px;
+    height: 38px;
+    position: absolute;
+    border-radius: 6px 0 0 6px;
+    object-fit: contain;
+    align-self: stretch;
+    flex-grow: 0;
+    padding: 8px 13px;
+    background-color: #e6e6e6;
+    flex-basis: 0;
+    flex-direction: initial;
+    justify-content: center;
+    align-self: baseline;
+    margin: 101px 0 318px;
+}
+
+.icon_senha{
+    width: 40px;
+    height: 38px;
+    position: absolute;
+    border-radius: 6px 0 0 6px;
+    object-fit: contain;
+    align-self: stretch;
+    flex-grow: 0;
+    padding: 8px 13px;
+    background-color: #e6e6e6;
+    flex-basis: 0;
+    flex-direction: initial;
+    justify-content: center;
+    align-self: baseline;
+}

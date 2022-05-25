@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="tela_login.css">
+    <script defer src="tela_login.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Login</title>
+</head>
+        
+<body>
+    <main>
+        <div style="width: 50%; height: 22%; align-items: center; display: flex; align-content: center; position: absolute; top: 40px; justify-content: center;">  
+            <img class="perfil" src="IMG_9753.jpeg">        
+        </div>
+        <form class="post-container" action="tela_login.html" method="get">
+            <div>
+                <img class="icon_email" src="email_icon.svg">
+                <input type="email" class="input_email" id="email" placeholder="marianafcruz74@gmail.com">
+                <br><br>
+                <img class="icon_senha" src="senha_icon.svg">
+                <input type="password" class="input_senha" placeholder="************">
+            </div>
+            <div style="width: 80%; height: 10%; padding: inherit; align-self: baseline; align-items: flex-start; display: flex; flex-direction: row;">
+                <input type="checkbox" class="checkbox" id="lembrar" name="lembrar" value="Lembrar">
+                <span for="lembrar" class="lembrar">Lembrar</span>
+                <a href="" class="esquecer_senha">Esqueceu a senha?</a> 
+                <br>
+            </div>
+            <div style="width: 46%; height: 10%; padding: inherit; align-self: baseline; align-items: flex-start; display: flex; flex-direction: row;">
+                <span class="nao_tem_conta">Ainda não tem conta?</span>
+                <a href="" class="cadastrar_usuario"><strong>Cadastre-se</strong></a> 
+            </div>
+            <div style="width: 10%; height: 60%; align-items: center; display: flex; align-content: center; position: absolute; top: 50%; justify-content: center;">
+                <button class="entrar">ENTRAR</button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
